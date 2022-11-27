@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="css/style.css"></link>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+     <img src="images/Asset 1@3x 1.svg">
+            <ul>
+                <li><a href="#">Bank</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Investments</a></li>
+                <li><a href="#">Insurance</a></li>
+                <li><a href="#">Mobile</a></li>
+                <li><a href="#">Travels</a></li>
+                <li><a href="#">Entertainment</a></li>
+             </ul>
+             <a href="#"class="btn">To come in</a>
+        </div>
+    </header>
+   
+        <h1>Currency Converter Online</h1>
+    <div class="MainSection">
+        <div class="Left">
+            <p>I have</p>
+            <div class="Selection">
+                <input id="RUB1" type="radio" name="currency1" value="RUB" checked>
+                  <label for="RUB1">RUB</label>
+                  <input id="USD1" type="radio" name="currency1" value="USD">
+                  <label for="USD1">USD</label>
+                  <input id="AZE1" type="radio" name="currency1" value="AZE" >
+                  <label for="AZE1">AZN</label>
+                  <input id="TRY1" type="radio" name="currency1" value="TRY">
+                  <label for="TRY1">TRY</label>
+            </div>
+
+            <div class="Area">
+                <input class="from" value="1"  type="number" placeholder="Enter Value">
+<p class="subtitle1"></p>
+            </div>
+        </div>
+<div class="Right">
+<p>I want to buy</p>
+<div class="Selection">
+    <input id="RUB2" type="radio" name="currency2" value="RUB">
+    <label for="RUB2">RUB</label>
+    <input id="USD2" type="radio" name="currency2" value="USD" checked>
+    <label for="USD2">USD</label>
+    <input id="AZE2" type="radio" name="currency2" value="AZE">
+    <label for="AZE2">AZN</label>
+    <input id="TRY2" type="radio" name="currency2" value="TRY">
+    <label for="TRY2">TRY</label>
+</div>
+<div class="Area">
+    <input readonly  value="0.016544"  class="to">
+    <p class="subtitle2"></p>
+</div>
+</div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
